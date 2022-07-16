@@ -43,6 +43,7 @@ const Main = () => {
             value={search}
             onChangeText={(text) => setSearch(text)}
             style={styles.searchInput}
+            placeholder="Search Jobs"
           />
         </View>
         {!loading && (
